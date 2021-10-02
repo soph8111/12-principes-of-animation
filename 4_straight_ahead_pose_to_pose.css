@@ -1,0 +1,50 @@
+#container {
+  animation: move_right_kf 2.58s infinite;
+}
+
+@keyframes move_right_kf {
+  0% {
+    transform: translateX(-2.5vw);
+  }
+  100% {
+    transform: translateX(46vw);
+  }
+}
+
+#ball {
+  width: 5vw;
+  height: 5vw;
+  animation: up_and_down_kf 2.58s infinite;
+}
+
+@keyframes up_and_down_kf {
+  0% {
+    transform: translateY(4vw);
+    animation-timing-function: cubic-bezier(0.7, -0.35, 1, 1);
+  }
+  22% {
+    transform: translateY(30vw);
+    animation-timing-function: cubic-bezier(0, 0.04, 0.35, 1.06);
+  }
+  34% {
+    transform: translateY(13vw);
+    animation-timing-function: cubic-bezier(0.77, -0.12, 1, 1);
+  }
+  43% {
+    transform: translateY(30vw);
+    animation-timing-function: cubic-bezier(0, 0.02, 0.57, 1.19);
+  }
+  50% {
+    transform: translateY(18vw);
+    animation-timing-function: cubic-bezier(0.8, -0.37, 1, 1);
+  }
+  67% {
+    transform: translateY(30vw);
+  }
+  80% {
+    transform: translateY(25vw);
+  }
+  100% {
+    transform: translateY(30vw);
+  }
+}
