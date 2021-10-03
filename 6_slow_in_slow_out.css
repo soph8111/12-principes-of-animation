@@ -1,0 +1,14 @@
+nav {
+  left: -260px;
+}
+.show {
+  transform-origin: top left;
+  transform: scale(1);
+  transition: 1s ease-in;
+}
+
+.hide {
+  transform-origin: top left;
+  transform: scale(0);
+  transition: 1s ease-out;
+}

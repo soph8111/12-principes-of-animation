@@ -1,0 +1,85 @@
+.linear {
+  animation: linear_kf 2s infinite;
+  animation-timing-function: linear;
+}
+
+@keyframes linear_kf {
+  100% {
+    transform: translateX(45vw);
+  }
+}
+
+.linear {
+  animation: linear_kf 2s infinite;
+  animation-timing-function: linear;
+}
+
+@keyframes ease_kf {
+  100% {
+    transform: translateX(45vw);
+  }
+}
+
+.ease {
+  animation: ease_kf 2s infinite;
+  animation-timing-function: ease;
+}
+
+@keyframes ease_kf {
+  100% {
+    transform: translateX(45vw);
+  }
+}
+
+.ease-in {
+  animation: ease-in_kf 2s infinite;
+  animation-timing-function: ease-in;
+}
+
+@keyframes ease-in_kf {
+  100% {
+    transform: translateX(45vw);
+  }
+}
+
+.ease-out {
+  animation: ease-out_kf 2s infinite;
+  animation-timing-function: ease-out;
+}
+
+@keyframes ease-out_kf {
+  100% {
+    transform: translateX(45vw);
+  }
+}
+
+.ease-in-out {
+  animation: ease-in-out_kf 2s infinite;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes ease-in-out_kf {
+  100% {
+    transform: translateX(45vw);
+  }
+}
+
+.steps {
+  animation: steps_kf 2s infinite;
+}
+
+@keyframes steps_kf {
+  0% {
+    animation-timing-function: cubic-bezier(0.57, -0.46, 1, 1);
+  }
+  33% {
+    animation-timing-function: cubic-bezier(0.57, -0.46, 1, 1);
+  }
+  66% {
+    animation-timing-function: cubic-bezier(0.01, 0.82, 0.4, 1.07);
+  }
+  100% {
+    transform: translateX(45vw);
+  }
+}
+/* Tror ikke det virker.. */

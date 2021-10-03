@@ -20,31 +20,33 @@
 @keyframes up_and_down_kf {
   0% {
     transform: translateY(4vw);
-    animation-timing-function: cubic-bezier(0.7, -0.35, 1, 1);
+    animation-timing-function: cubic-bezier(0.47, -0.12, 1, 0.24);
   }
-  22% {
-    transform: translateY(30vw);
-    animation-timing-function: cubic-bezier(0, 0.04, 0.35, 1.06);
+  23% {
+    transform: translateY(32vw);
+    animation-timing-function: cubic-bezier(0, 0.24, 0.12, 1.12);
   }
   34% {
     transform: translateY(13vw);
-    animation-timing-function: cubic-bezier(0.77, -0.12, 1, 1);
+    animation-timing-function: cubic-bezier(1, 0.34, 1, 0.64);
   }
-  43% {
-    transform: translateY(30vw);
-    animation-timing-function: cubic-bezier(0, 0.02, 0.57, 1.19);
+  40% {
+    transform: translateY(32vw);
+    animation-timing-function: cubic-bezier(0, 0.38, 0.29, 0.75);
   }
-  50% {
+  48% {
     transform: translateY(18vw);
-    animation-timing-function: cubic-bezier(0.8, -0.37, 1, 1);
+    animation-timing-function: cubic-bezier(0.82, 0.15, 0.99, 0.59);
   }
-  67% {
-    transform: translateY(30vw);
+  60% {
+    transform: translateY(32vw);
+    animation-timing-function: cubic-bezier(0, 0.12, 0.26, 1);
   }
   80% {
     transform: translateY(25vw);
+    animation-timing-function: cubic-bezier(0.32, 0.61, 1, 0.48);
   }
   100% {
-    transform: translateY(30vw);
+    transform: translateY(32vw);
   }
 }

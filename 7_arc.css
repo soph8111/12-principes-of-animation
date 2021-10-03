@@ -1,0 +1,16 @@
+.addtocart {
+  animation: addtocart_kf 1s 1;
+  offset-path: path("c80,200 m200,-140");
+}
+
+@keyframes addtocart_kf {
+  /* 0% {
+  }
+  100% {
+    transform: translate(220px, -140px);
+  } */
+  100% {
+    motion-offset: 100%;
+    offset-distance: 100%;
+  }
+}

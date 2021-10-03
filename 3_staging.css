@@ -1,0 +1,7 @@
+#content {
+  left: -260px;
+}
+.active {
+  transform: translateX(260px);
+  transition: all 1.5s ease;
+}
